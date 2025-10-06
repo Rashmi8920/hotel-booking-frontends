@@ -38,7 +38,7 @@ const SelectedCategory = () => {
   return (
     <div className="flex flex-col items-center w-[92%] p-8 relative bottom-7 mt-11 mx-auto">
       <h1 className="text-2xl font-bold mb-8 mt-5">{category.name}</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 postModel">
         {posts.map((post, index) => (
           <article
             key={post._id}
