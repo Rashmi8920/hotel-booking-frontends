@@ -26,7 +26,7 @@ const FilterSidebar = ({ applyFilters }) => {
 
   return (
     <>
-    <div className="p-4 space-y-6 w-[14rem]  sm:mt-[5rem] sm:ml-0 ml-[-50px] mt-[3rem]  ">
+    <div className="p-4 space-y-6 w-[14rem]  sm:mt-[5rem] sm:ml-0 ml-[-90px] mt-[3rem]  ">
       {/* Budget Filter */}
       <div className="p-4 border rounded-md ">
         <h3 className="font-semibold mb-2">Your budget per day</h3>
