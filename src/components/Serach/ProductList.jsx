@@ -3,7 +3,7 @@ import React from "react";
 const ProductList = ({ products }) => {
   return (
     <div className="flex flex-col items-center w-[92%] relative bottom-7 sm:ml-10 ml-[-99px]">
-      <h1 className="text-2xl sm:w-25 w-[270px] font-bold mb-5 sm:mt-9 mt-14  sm:ml-0 ml-40">
+      <h1 className="text-2xl sm:w-[325px] w-[280px] font-bold mb-5 sm:mt-9 mt-14  sm:mr-0 mr-[-210px]">
         {products.length < 1
           ? "No Products Found"
           : `Search Results Found: ${products.length}`}
