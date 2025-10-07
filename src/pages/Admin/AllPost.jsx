@@ -37,11 +37,11 @@ const AllPost = () => {
       <CreateNavbar />
       <div className="flex flex-col items-center w-[94%]  sm:mr-0 p-8 relative bottom-7 ml-[-120px] z-5">
         <h1 className="text-2xl font-bold mb-8">Your All Posts</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:mt-2 mt-4">
           {posts.map((post, index) => (
             <article
               key={post._id}
-              className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-[21rem] mx-auto shadow-lg"
+              className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 sm:w-[21rem] w-[18rem]  mx-auto shadow-lg sm:ml-0 ml-[-50px]"
             >
               <img
                 src={post.images[currentImageIndex]}
