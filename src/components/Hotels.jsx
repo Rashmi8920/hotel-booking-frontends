@@ -62,7 +62,7 @@ const Hotels = () => {
   };
   return (
     <div className="container mx-auto mt-16" id="hotels">
-      <h2 className="text-3xl font-semibold mb-8 ml-[8rem]">Popular Hotels</h2>
+      <h2 className="text-3xl font-semibold mb-8  sm:ml-[8rem] ml-14">Popular Hotels</h2>
       <Carousel
         responsive={responsive}
         // removeArrowOnDeviceType={["tablet"]}
