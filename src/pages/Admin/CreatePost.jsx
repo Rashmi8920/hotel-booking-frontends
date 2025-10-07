@@ -108,7 +108,7 @@ const CreatePost = () => {
 
   return (
     <div className="flex justify-between text-black  ">
-      <div className="ml-[4rem]">
+      <div className="sm:ml-[4rem] ml-[1rem]">
         <Navbar />
       </div>
       <div className="flex flex-col p-8 w-[81%] sm:ml-0 ml-[-5px]">
