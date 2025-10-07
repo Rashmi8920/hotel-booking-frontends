@@ -36,7 +36,7 @@ const AllPost = () => {
     <div className="flex ml-5 mt-8" >
       <CreateNavbar />
       <div className="flex flex-col items-center w-[94%]  sm:mr-0 p-8 relative bottom-7 ml-[-120px] z-5">
-        <h1 className="text-2xl font-bold mb-8">Your All Posts</h1>
+        <h1 className="text-2xl font-bold mb-8 sm:mt-0 mt-4">Your All Posts</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:mt-2 mt-4">
           {posts.map((post, index) => (
             <article
