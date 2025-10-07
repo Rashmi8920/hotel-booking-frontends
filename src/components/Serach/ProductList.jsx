@@ -12,7 +12,7 @@ const ProductList = ({ products }) => {
         {products.map((post) => (
           <article
             key={post._id}
-            className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-[21rem] mx-auto shadow-lg"
+            className="sm:w-[21rem] w-[18rem]   relative isolate  flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 mx-auto shadow-lg sm:ml-0 ml-[-25px]"
           >
             <img
               src={post.images?.[0] || "https://via.placeholder.com/150"}
