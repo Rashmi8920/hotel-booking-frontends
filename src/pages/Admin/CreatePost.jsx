@@ -112,7 +112,7 @@ const CreatePost = () => {
         <Navbar />
       </div>
       <div className="flex flex-col p-8 w-[81%] sm:ml-0 ml-[-5px]">
-        <h1 className="text-2xl font-bold mb-6 text-gray-800">Create Post</h1>
+        <h1 className="text-xl sm:text-2xl font-bold mb-6 text-gray-800">Create Post</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="text"
