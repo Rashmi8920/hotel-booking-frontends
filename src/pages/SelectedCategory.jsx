@@ -42,7 +42,7 @@ const SelectedCategory = () => {
         {posts.map((post, index) => (
           <article
             key={post._id}
-            className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-[21rem] mx-auto shadow-lg"
+            className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 sm:w-[21rem] w-[18rem]  mx-auto shadow-lg"
           >
             <img
               src={post.images[currentImageIndex]}
