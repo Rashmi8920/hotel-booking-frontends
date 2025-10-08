@@ -20,7 +20,7 @@ Navbar = () => {
    const [isOpen, setIsOpen] = useState(false); //Sidebar toggle state
   return (
     //  all navbar
-    <div className=" bg-gray-800  sm:ml-0 ml-[-28px] text-white w-[13rem] mt-10 sm:mt-0  h-full min-h-[28rem] border-r border-gray-700 md:mr-0 sticky top-20 z-30  m-[-50px] md:m-0 sm:mr-0 mr-[-8px] sm:mb-0 mb-[10px] ">
+    <div className=" bg-gray-800  sm:ml-0 ml-[-34px] text-white sm:w-[13rem] w-[10rem] mt-3 sm:mt-0  h-full min-h-[28rem] border-r border-gray-700 md:mr-0 sticky top-20 z-30  m-[-50px] md:m-0 sm:mr-0 mr-[-8px] sm:mb-0 mb-[10px] ">
       <nav className="flex flex-col p-5 space-y-4">
         {navbarMenu.map((item) => (
           <Link
