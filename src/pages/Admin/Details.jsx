@@ -13,7 +13,7 @@ const Details = () => {
 
   return (
     <div className="flex flex-row ml-16">
-     <Navbar />   
+     <div className="ml-[-55px]"><Navbar /> </div>   
       <div className="p-8 bg-gray-50 mx-8 h-full  sm:ml-0 ml-[-5px] flex flex-col justify-center">
         <h2 className="text-2xl font-semibold mb-6 text-gray-800">
           User Details
