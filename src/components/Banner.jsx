@@ -59,7 +59,7 @@ const Banner = () => {
           />
           <button
             onClick={handelSerach}
-            className="px-4 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition"
+            className="sm:px-4  p-1 py-2 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition"
           >
             Search
           </button>
