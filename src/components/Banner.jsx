@@ -49,7 +49,7 @@ const Banner = () => {
         </p>
 
         {/* Search Bar */}
-        <div className="mt-8 w-[300px] sm:p-4 p-2 max-w-[50rem] sm:w-[80%] md:w-[60%] bg-white rounded-lg shadow-lg flex items-center sm:space-x-4 space-x-2 sm:mr-0 mr-46">
+        <div className="mt-8 w-[312px] sm:p-4 p-2 max-w-[50rem] sm:w-[80%] md:w-[60%] bg-white rounded-lg shadow-lg flex items-center sm:space-x-4 space-x-2 sm:mr-0 mr-46">
           <input
             type="text"
             placeholder="Search destinations..."
